@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "module": "commonjs",
+        "target": "es5",
+        "allowJs": true,
+        "checkJs": false,
+        "jsx": "react",
+        "sourceMap": true,
+        "removeComments": true,
+        "noEmit": true,
+        "pretty": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "lib": ["ES2015", "DOM", "ES2017"],
+        "baseUrl": ".",
+        "paths": {
+            "src/*": ["./src/*"],
+        },
+        "noUnusedLocals": false,
+    },
+    "include": [
+        "./src/**/*",
+        "./typings/*",
+    ]
+}
